@@ -2,7 +2,8 @@
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
-  basePath: '',
+  basePath: '/lunch-box-landing',
+  assetPrefix: '/lunch-box-landing',
   eslint: {
     ignoreDuringBuilds: true,
   },
